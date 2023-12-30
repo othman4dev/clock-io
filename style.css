@@ -1,0 +1,136 @@
+html {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.clock {
+    color: crimson;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1 {
+    font-size: 70px;
+}
+
+.dialog1,
+.dialog2,
+.dialog3,
+.dialog4,
+#exit {
+    background-color: transparent;
+    border: none;
+    border-radius: 8pt;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: auto;
+    position: relative;
+}
+button:hover,
+#exit:hover {
+    
+    box-shadow: rgba(149, 157, 165, 0.478) 0px 0px 8px -1px;
+}
+button img {
+    width: 24px;
+    margin-top: 3px;
+}
+nav {
+    float: right;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    border-radius: 9pt;
+}
+#exit {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    box-shadow: none;
+    transition: 0.5s;
+}
+.class{
+    background-color: white;
+    border: none;
+    border-radius: 9pt;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    min-height: fit-content;
+    min-width: 120px;
+    position: absolute;
+    display: none;
+    left: -80px;
+    top: 50px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+}
+.color {
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 100%;
+    border-radius: 15pt;
+    cursor: pointer;
+}
+.coche {
+    margin-left: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+.class div {
+    width: 120px;
+    border: solid white 1px;
+    border-radius: 9pt;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    transition: 0.4s;
+    height: 40px;
+}
+.class div:hover {
+    background-color: rgb(241, 241, 241);
+}
+.color-menu {
+    display: none;
+}
+#hide1,
+#hide2 {
+    display: none;
+}
+#theme1 {
+    background-color: rgb(14, 9, 68);
+    color: rgb(4, 152, 238);
+}
+#theme2 {
+    color: orange;
+    background-color: brown;
+}
+#theme3 {
+    background-color: rgb(120, 120, 120);
+    color: white;
+}
+#theme4 {
+    background-color: black;
+    color: white;
+}
+#theme5 {
+    background-color: skyblue;
+    color: rgb(230, 227, 227);
+}
+#theme6 {
+    background-color: indigo;
+    color: pink;
+}
